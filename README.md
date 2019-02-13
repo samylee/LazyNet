@@ -35,7 +35,7 @@ Relu4	128	-	-	-	1x1	1x1
 Ip2	2	-	-	-	1x1	1x1
 softmax	-	-	-	-	1x1	1x1
 ## 五、示例代码
-#include "lazy_net.h"
+'#include "lazy_net.h"
 int main()
 {
 	//data information
@@ -64,7 +64,7 @@ int main()
 
 	return 0;
 }
-
+'
 ## 六、示例结果
 
 # 尾注
