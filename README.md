@@ -70,7 +70,7 @@ int main()
 ```
 
 ## 六、示例结果
-
+![result](https://github.com/samylee/LazyNet/blob/master/result.jpg)
 
 # 尾注
 虽然这款学习框架很好理解，有利于梳理整个深度学习流程，但是也有几点不足之处，后面有时间会做相应调整
