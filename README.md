@@ -20,24 +20,21 @@
 ## 三、示例数据
 mnist400（train200-0，train200-1，test20-0，test20-1）
 ## 四、示例网络
-|Tables         | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-Layers	channel	Kernel_size	stride	pad	Input_size	Output_size
-Conv1	16	3	1	0	28x28	26x26
-Relu1	16	-	-	-	26x26	26x26
-Maxpool1	16	2	2	0	26x26	13x13
-Conv2	32	3	1	0	13x13	11x11
-Relu2	32	-	-	-	11x11	11x11
-Maxpool2	32	2	2	0	11x11	6x6
-Conv3	64	3	1	0	6x6	4x4
-Relu3	64	-	-	-	4x4	4x4
-Ip1	128	-	-	-	4x4	1x1
-Relu4	128	-	-	-	1x1	1x1
-Ip2	2	-	-	-	1x1	1x1
-softmax	-	-	-	-	1x1	1x1
+| Layers | channel | Kernel_size | stride | pad | Input_size | Output_size |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+| Conv1  | 16 | 3 |  1  |  0  |  28x28  |  26x26  |
+| Relu1  | 16 |  - |  -  |  -  |   26x26 |  26x26  |
+| Maxpool1 | 16 |  2 |  2  |  0  |  26x26  |  13x13  |
+| Conv2 | 32 |  3 |  1  |  0  |  13x13   |  11x11   |
+| Relu2 | 32  |  - |  -  |  -  |  11x11   |  11x11   |
+| Maxpool2 | 32  |  2 |  2  |  0  | 11x11  |  6x6  |
+| Conv3 | 64  |  3 |  1  |  0  |  6x6  | 4x4   |
+| Relu3 | 64  |  - |  -  |  -  |  4x4  | 4x4   |
+| Ip1 | 128 |   - |  -  |  -  | 4x4   |  1x1  |
+| Relu4 | 128  |  -| -   |  -  |  1x1  |  1x1  |
+| Ip2 | 2  |  - |  -  |  -  | 1x1   |  1x1  |
+| softmax | 2  |  - |  -  |  -  |  1x1  |  1x1  |
+
 ## 五、示例结果
 
 # 尾注
