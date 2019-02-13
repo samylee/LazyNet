@@ -80,4 +80,5 @@ int main()
 * 主要layers基于caffe修改而成，后面考虑去除OpenBLAS
 
 
-# 任何问题请加唯一QQ2258205918（名称samylee）！
+# 参考
+* https://blog.csdn.net/samylee/article/details/87194376
