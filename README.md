@@ -20,6 +20,11 @@
 ## 三、示例数据
 mnist400（train200-0，train200-1，test20-0，test20-1）
 ## 四、示例网络
+|Tables         | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 Layers	channel	Kernel_size	stride	pad	Input_size	Output_size
 Conv1	16	3	1	0	28x28	26x26
 Relu1	16	-	-	-	26x26	26x26
